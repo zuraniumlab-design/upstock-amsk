@@ -1,0 +1,29 @@
+.container {
+  background-color: #9eded0;
+  height: 100vh;
+  width: 100vw;
+  padding: 2rem;
+}
+
+/*? SIDEBAR START */
+.sidebar {
+  
+}
+/*? SIDEBAR END */
+
+
+.content {
+  height: calc(100vh - 4rem);
+  overflow: hidden;
+  position: relative;
+}
+.items {
+  height: 100%;
+  overflow: auto;
+  gap: 20px;
+}
+.item {
+  background-color: #fff;
+  padding: 5px 3px;
+  border-radius: 3px;
+}
